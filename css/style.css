@@ -183,6 +183,7 @@ button:hover {
 	border: 1px solid #EAEBEC;
 	padding: 0.625rem 0;
 	text-align: center;
+	box-sizing: border-box;
 }
 .social .icons > li:hover {
 	cursor: pointer;
