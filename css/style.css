@@ -49,7 +49,6 @@ table {
 /*End of Reset*/
 
 body {
-	-webkit-font-smoothing: antialiased;
 	font-family: 'Roboto', sans-serif;
 }
 .content {
@@ -139,7 +138,6 @@ button:hover {
 }
 .cases .content {
 	margin-top: 7.875rem;
-	padding: none;
 	text-align: center;
 	color: #1D1E21;
 
@@ -218,16 +216,7 @@ button:hover {
     }
 }
 
-/* Chrome, Safari, Opera */ 
-@-webkit-keyframes bounce {
-    0%, 100% {margin-top: 0px;}
-    50% {margin-top: 2rem;}
-}
-/* Standard syntax */ 
-@keyframes bounce {
-    0%, 100% {margin-top: 0px;}
-    50% {margin-top: 2rem;}
-}
+
 
 
 
